@@ -2,3 +2,41 @@
 <!-- Investigar como lograr colocar las etiquetas de una pagina web usando solo el signo de admiración (!) -->
 
 <!-- Debería funcionar cuando se observan los console.log (ejemplo: console.log('Hola Mundo') ) en la consola del navegador -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc_propinas</title>
+</head>
+<body>
+    <div class="calculadora">
+        <h1>Calculadora de propinas</h1>
+        <form id= "formulario-propina">
+            
+            <!--para pedir el monto total-->
+            <label for = "montoCuenta"> Ingresa el monto total de la cuenta</label>
+                <input type="number" id="montoCuenta" required>
+
+            <!-- para pedir el porcentaje de propina-->
+            <label for = "porcentajePropina"> Ingresa el porcentaje de propina que deseas pagar </label>
+                <input type="number" id="porcentajePropina" required>
+            
+            
+            <!-- Botón para calular-->
+            <button type="button" id="Calcular">Calcular</button>
+        </form>
+
+
+        <!--Resultado del calculo-->
+        <div id=" resultado">
+            <p>Propina: <span id = "propina"> </span></p>
+            <p>Total de la cuenta con propina: <span id="totalconPropina"></span></p>
+        </div>
+    </div>
+    
+</body>
+</html>
