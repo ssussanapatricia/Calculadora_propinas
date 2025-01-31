@@ -1,1 +1,20 @@
 /* Aqui van los estilos  */
+body {
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d7bed5;
+}
+.calculadora {
+    background-color: #f0f8f2;
+    padding: 50px;
+    border-radius: 8px;
+    width: 300px;
+}
+h1 {
+    text-align: center;
+}
